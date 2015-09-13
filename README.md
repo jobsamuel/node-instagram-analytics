@@ -8,12 +8,14 @@
 
 - Publish to npm.
 - Explain module usage (improve README).
-- Add more features
+- Add more features.
+ - Get detailed info about user profile.
  - Calculate averages per media (likes, comments, response time, etc).
  - Process comments.
- - Get detailed info about profile.
 
 # contribution
+
+After checking [Github Issues](https://github.com/heartyrobot/node-instagram-analytics/issues) or having a chat with @jobsamuel, feel free to fork and create a Pull Request.
 
 # license
 
