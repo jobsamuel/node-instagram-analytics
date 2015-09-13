@@ -1,0 +1,30 @@
+{
+  "name": "node-instagram-analytics",
+  "version": "0.3.0",
+  "description": "NodeJS module for Instagram Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartyrobot/node-instagram-analytics.git"
+  },
+  "keywords": [
+    "instagram",
+    "analytics",
+    "social-media",
+    "metrics"
+  ],
+  "author": "Jobsamuel Núñez <jobsamuel.nunez@outlook.com> (http://jobsamuel.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heartyrobot/node-instagram-analytics/issues"
+  },
+  "homepage": "https://github.com/heartyrobot/node-instagram-analytics#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "moment": "^2.10.6",
+    "request": "^2.61.0"
+  }
+}

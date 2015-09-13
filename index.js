@@ -1,0 +1,1 @@
+exports.analytics = require('./lib/analytics');
