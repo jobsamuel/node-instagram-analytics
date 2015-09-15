@@ -2,12 +2,43 @@
 
 > NodeJS module for Instagram Analytics
 
+# installation
+
+    $ npm install node-instagram-analytics
+
 # usage
+
+Example.js:
+
+    var Analytics = require('node-instagram-analytics')
+
+    // use a valid instagram access token
+    var metrics = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
+
+    metrics.simple('username', function (err, result) {
+        if (err) {
+            // do something
+        }
+
+        console.log(result)
+    })
+
+The result will be something like this:
+
+    {
+      "likes_per_media": "63.79",
+      "comments_per_media": "22.5",
+      "total_likes": 2679,
+      "total_comments": 945,
+      "ratio": "5.68",
+      "limits": "4853 remaining requests for this hour."
+    }
+
 
 # todo
 
-- [ ] Publish to npm.
-- [ ] Explain module usage (improve README).
+- [x] Publish to npm.
+- [x] Explain module usage (improve README).
 - [ ] Add more features.
  - [x] Get detailed info about user profile.
  - [x] Calculate averages per media (likes, comments, response time, etc).
