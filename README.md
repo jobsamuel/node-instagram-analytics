@@ -4,36 +4,40 @@
 
 # installation
 
-    $ npm install node-instagram-analytics
+```bash
+$ npm install node-instagram-analytics
+```
 
 # usage
 
 Example.js:
 
-    var Analytics = require('node-instagram-analytics')
+```js
+var Analytics = require('node-instagram-analytics')
 
-    // use a valid instagram access token
-    var metrics = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
+// use a valid instagram access token
+var metrics = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
 
-    metrics.simple('username', function (err, result) {
-        if (err) {
-            // do something
-        }
-
-        console.log(result)
-    })
+metrics.simple('username', function (err, result) {
+    if (err) {
+        // do something
+    }
+    console.log(result)
+})
+```
 
 The result will be something like this:
 
-    {
-      "likes_per_media": "63.79",
-      "comments_per_media": "22.5",
-      "total_likes": 2679,
-      "total_comments": 945,
-      "ratio": "5.68",
-      "limits": "4853 remaining requests for this hour."
-    }
-
+```json
+{
+  "likes_per_media": "63.79",
+  "comments_per_media": "22.5",
+  "total_likes": 2679,
+  "total_comments": 945,
+  "ratio": "5.68",
+  "limits": "4853 remaining requests for this hour."
+}
+```
 
 # todo
 
