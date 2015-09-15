@@ -28,19 +28,22 @@ Analytics.prototype.simple = function (user, callback) {
                 return console.log(error);
             }
 
+            var result;
             var data = {};
             var media = response.counts.media;
             var follows = response.counts.follows;
             var followed_by = response.counts.followed_by;
 
-            data.likes_per_media = (analytics.likes / media).toFixed(2);
-            data.comments_per_media = (analytics.comments / media).toFixed(2);
+            data.likes_per_media = analytics.likes / media;
+            data.comments_per_media = analytics.comments / media;
             data.total_likes = analytics.likes;
             data.total_comments = analytics.comments;
-            data.ratio = (followed_by / follows).toFixed(2);
+            data.ratio = followed_by / follows;
             data.limits = analytics.limits;
+            data.calls = analytics.calls;
 
-            callback(null, JSON.stringify(data, undefined, 2) );
+            result = JSON.stringify(data, undefined, 2);
+            callback(null, result);
 
         });
 
