@@ -18,6 +18,7 @@ var Analytics = require('node-instagram-analytics')
 // use a valid instagram access token
 var metrics = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
 
+// analyze an instagram profile you have access to
 metrics.simple('username', function (err, result) {
     if (err) {
         // do something
