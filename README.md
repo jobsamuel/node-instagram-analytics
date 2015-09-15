@@ -1,5 +1,4 @@
-# node-instagram-analytics
-[![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg)](https://david-dm.org/heartyrobot/node-instagram-analytics#info=Dependencies)
+# node-instagram-analytics [![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg)](https://david-dm.org/heartyrobot/node-instagram-analytics#info=Dependencies)
 
 > NodeJS module for Instagram Analytics
 
@@ -17,10 +16,10 @@ Example.js:
 var Analytics = require('node-instagram-analytics')
 
 // use a valid instagram access token
-var metrics = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
+var stats = new Analytics('<INSTAGRAM_ACCESS_TOKEN>')
 
 // analyze an instagram profile you have access to
-metrics.simple('username', function (err, result) {
+stats.simple('username', function (err, result) {
     if (err) {
         // do something
     }
@@ -32,23 +31,25 @@ The result will be something like this:
 
 ```json
 {
-  "likes_per_media": "63.79",
-  "comments_per_media": "22.5",
+  "likes_per_media": 63.79468,
+  "comments_per_media": 22.5142697,
   "total_likes": 2679,
   "total_comments": 945,
-  "ratio": "5.68",
-  "limits": "4853 remaining requests for this hour."
+  "ratio": 5.68411203067,
+  "limits": 4853,
+  "calls": 3
 }
 ```
 
 # todo
 
-- [x] Publish to npm.
-- [x] Explain module usage (improve README).
+- [x] ~~Publish to npm.~~
+- [x] ~~Explain module usage (improve README).~~
 - [ ] Add more features.
- - [x] Get detailed info about user profile.
- - [x] Calculate averages per media (likes, comments, response time, etc).
- - [ ] Process comments.
+ - [x] ~~Get detailed info about user profile.~~
+ - [x] ~~Calculate averages per media (likes, comments, etc).~~
+ - [ ] Process comments (get common words, avegare response time, etc).
+ - [ ] Process likes (most liked photo, top 3 photos, top fans, etc).
 
 # contribution
 
