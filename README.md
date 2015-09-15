@@ -1,4 +1,5 @@
 # node-instagram-analytics
+[![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg)](https://david-dm.org/heartyrobot/node-instagram-analytics#info=Dependencies)
 
 > NodeJS module for Instagram Analytics
 
