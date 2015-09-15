@@ -6,12 +6,12 @@
 
 # todo
 
-- [] Publish to npm.
-- [] Explain module usage (improve README).
-- [] Add more features.
+- [ ] Publish to npm.
+- [ ] Explain module usage (improve README).
+- [ ] Add more features.
  - [x] Get detailed info about user profile.
  - [x] Calculate averages per media (likes, comments, response time, etc).
- - [] Process comments.
+ - [ ] Process comments.
 
 # contribution
 
