@@ -48,7 +48,7 @@ The result will be something like this:
 - [ ] Add more features.
  - [x] ~~Get detailed info about user profile.~~
  - [x] ~~Calculate averages per media (likes, comments, etc).~~
- - [ ] Process comments (get common words, avegare response time, etc).
+ - [ ] Process comments (get common words, average response time, etc).
  - [ ] Process likes (most liked photo, top 3 photos, top fans, etc).
 
 # contribution
