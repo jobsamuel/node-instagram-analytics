@@ -45,6 +45,7 @@ The result will be something like this:
 
 - [x] ~~Publish to npm.~~
 - [x] ~~Explain module usage (improve README).~~
+- [ ] Improve error handling.
 - [ ] Add more features.
  - [x] ~~Get detailed info about user profile.~~
  - [x] ~~Calculate averages per media (likes, comments, etc).~~
