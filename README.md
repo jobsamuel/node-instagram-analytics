@@ -1,15 +1,15 @@
 # node-instagram-analytics
-[![npm version](https://badge.fury.io/js/node-instagram-analytics.svg)](http://badge.fury.io/js/node-instagram-analytics) [![npm](https://img.shields.io/npm/dt/node-instagram-analytics.svg)]() [![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg)](https://david-dm.org/heartyrobot/node-instagram-analytics#info=Dependencies)
+[![npm version](https://img.shields.io/npm/v/node-instagram-analytics.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics) [![npm](https://img.shields.io/npm/dt/node-instagram-analytics.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics) [![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics)
 
 > NodeJS module for Instagram Analytics
 
-# installation
+## installation
 
 ```bash
 $ npm install node-instagram-analytics
 ```
 
-# usage
+## usage
 
 Example.js:
 
@@ -42,21 +42,22 @@ The result will be something like this:
 }
 ```
 
-# todo
+## todo
 
 - [x] ~~Publish to npm.~~
 - [x] ~~Explain module usage (improve README).~~
 - [ ] Improve error handling.
+- [ ] Simplify obtaining Instagram Access Token for testing.
 - [ ] Add more features.
  - [x] ~~Get detailed info about user profile.~~
  - [x] ~~Calculate averages per media (likes, comments, etc).~~
  - [ ] Process comments (get common words, average response time, etc).
  - [ ] Process likes (most liked photo, top 3 photos, top fans, etc).
 
-# contribution
+## contribution
 
 After checking [Github Issues](https://github.com/heartyrobot/node-instagram-analytics/issues) or having a chat with [@jobsamuel](https://telegram.me/jobsamuel) about the project, feel free to fork and create a Pull Request.
 
-# license
+## license
 
 [MIT](http://opensource.org/licenses/MIT) License :copyright: 2015 Hearty Robot and [other contributors](https://github.com/heartyrobot/node-instagram-analytics/graphs/contributors)
