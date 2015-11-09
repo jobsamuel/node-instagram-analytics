@@ -62,7 +62,7 @@ var Analytics = (function () {
             if (typeof user === 'number') {
                 this.ig.getProfile(user, cb);
             } else if (typeof user === 'string') {
-                self.ig.getUid(user, function (err, uid) {
+                this.ig.getUid(user, function (err, uid) {
                     if (err) {
                         var error = new Error(err);
                         return callback(error);
