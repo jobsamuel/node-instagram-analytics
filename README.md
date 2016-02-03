@@ -56,8 +56,8 @@ The result will be something like this:
 
 ## contribution
 
-After checking [Github Issues](https://github.com/heartyrobot/node-instagram-analytics/issues) or having a chat with [@jobsamuel](https://telegram.me/jobsamuel) about the project, feel free to fork and create a Pull Request.
+After checking [Github Issues](https://github.com/jobsamuel/node-instagram-analytics/issues) or having a chat with [@jobsamuel](https://telegram.me/jobsamuel) about the project, feel free to fork and create a Pull Request.
 
 ## license
 
-[MIT](http://opensource.org/licenses/MIT) License :copyright: 2015 Hearty Robot and [other contributors](https://github.com/heartyrobot/node-instagram-analytics/graphs/contributors)
+[MIT](http://opensource.org/licenses/MIT) License :copyright: 2016 Jobsamuel Núñez and [other contributors](https://github.com/jobsamuel/node-instagram-analytics/graphs/contributors)

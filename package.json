@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heartyrobot/node-instagram-analytics.git"
+    "url": "git+https://github.com/jobsamuel/node-instagram-analytics.git"
   },
   "keywords": [
     "instagram",
@@ -22,9 +22,9 @@
   "author": "Jobsamuel Núñez <jobsamuel.nunez@outlook.com> (http://jobsamuel.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heartyrobot/node-instagram-analytics/issues"
+    "url": "https://github.com/jobsamuel/node-instagram-analytics/issues"
   },
-  "homepage": "https://github.com/heartyrobot/node-instagram-analytics#readme",
+  "homepage": "https://github.com/jobsamuel/node-instagram-analytics#readme",
   "dependencies": {
     "async": "^1.4.2",
     "moment": "^2.10.6",
