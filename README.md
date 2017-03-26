@@ -1,4 +1,4 @@
-# node-instagram-analytics
+# [DEPRECATED] node-instagram-analytics
 [![npm version](https://img.shields.io/npm/v/node-instagram-analytics.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics) [![npm](https://img.shields.io/npm/dt/node-instagram-analytics.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics) [![Dependency Status](https://david-dm.org/heartyrobot/node-instagram-analytics/status.svg?style=flat-square)](https://www.npmjs.com/package/node-instagram-analytics)
 
 > NodeJS module for Instagram Analytics
@@ -60,4 +60,4 @@ After checking [Github Issues](https://github.com/jobsamuel/node-instagram-analy
 
 ## license
 
-[MIT](http://opensource.org/licenses/MIT) License :copyright: 2016 Jobsamuel Núñez and [other contributors](https://github.com/jobsamuel/node-instagram-analytics/graphs/contributors)
+[MIT](http://opensource.org/licenses/MIT) License :copyright: Jobsamuel Núñez and [other contributors](https://github.com/jobsamuel/node-instagram-analytics/graphs/contributors)
